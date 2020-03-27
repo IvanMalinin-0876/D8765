@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Тестовое задание</title>
+
+    <link rel="stylesheet" href="./css/booklist.css">
+</head> -->
+
+<head>
+    <link rel="stylesheet" href="./css/booklist.css">
+</head>
+
+
+<body>
+
+
+    <?php
+include("./php/nb_header.php");
+include("./php/DB_connect.php");
+?>
+
+        <div id=" formbook">
+
+
+
+            <form action="./php/addautor.php" method="POST">
+                <fieldset>
+                    <legend>
+                        <h1>Новый автор</h1>
+                    </legend>
+
+                    <p>Ф.И.О. Автора:
+                        <input type="text" name="author">
+                        <!-- ссылаемся на список предопределенных вариантов -->
+                    </p>
+
+                    <input type="submit" value="Добавить Автора">
+                </fieldset>
+            </form>
+
+
+
+        </div>
+</body>
+
+</html>

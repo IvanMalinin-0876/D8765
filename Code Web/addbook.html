@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Тестовое задание</title>
+
+    <link rel="stylesheet" href="./css/booklist.css">
+</head> -->
+
+<head>
+    <link rel="stylesheet" href="./css/booklist.css">
+</head>
+
+
+<body>
+
+
+    <?php
+include("./php/nb_header.php");
+include("./php/DB_connect.php");
+?>
+
+        <div id=" formbook">
+
+            <form action="./php/addboook.php" method="POST">
+                <fieldset>
+                    <legend>
+                        <h1>Новая книга</h1>
+                    </legend>
+                    <p>Название:
+                        <input type="text" name="name">
+                    </p>
+                    <p>Страниц:&nbsp;
+                        <input type="text" name="pageCount">
+                    </p>
+                    <p>Автор:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="text" list="autors" name="author">
+                        <!-- ссылаемся на список предопределенных вариантов -->
+                    </p>
+                    <datalist id="autors"> 
+
+						<?php	
+						$sql = "SELECT * FROM `Author`  ";
+						$result = mysqli_query($dbcon, $sql);	
+						while ($row = mysqli_fetch_assoc($result)) {
+							$auNum  = htmlentities($row['authorId']);
+							$auName  = htmlentities($row['name']);
+								echo '<option value = "'.$auName.'" label = "'.$auName.'">';							
+						}
+				?>
+
+				</datalist>
+                    <input type="submit" value="Добавить книгу">
+                </fieldset>
+            </form>
+
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+
+
+<head>
+    <link rel="stylesheet" href="./css/booklist.css">
+</head>
+
+
+<body>
+
+
+    <?php
+include("./php/nb_header.php");
+include("./php/DB_connect.php");
+?>
+
+        <div id=" formbook">
+
+            <h1>Книги</h1>
+
+
+            <table class="greenTable">
+                <thead>
+                    <tr>
+                        <th>Номер</th>
+                        <th>Название</th>
+                        <th>Количество страниц</th>
+                        <th>Автор</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">
+
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+
+                    <?php	
+			
+			$sql = "SELECT * FROM `Book` ";
+			$result = mysqli_query($dbcon, $sql);			
+			
+			while ($row = mysqli_fetch_assoc($result)) {
+			
+				$nbNum   = htmlentities($row['bookId']);
+				$nbName  = htmlentities($row['name']);
+				$nbPages = htmlentities($row['pageCount']);
+				$nbAutor = htmlentities($row['author']);
+
+				    echo '<tr>';
+					echo '<td>'.$nbNum.'</td>';
+					echo '<td>'.$nbName.'</td>';
+					echo '<td>'.$nbPages.'</td>';
+					echo '<td>'.$nbAutor.'</td>';
+					echo '';
+					echo '</tr>';
+
+			}
+
+			?>
+
+                </tbody>
+            </table>
+
+
+
+
+            <hr>
+
+            <h1>Авторы</h1>
+            <table class="greenTable">
+                <thead>
+                    <tr>
+                        <th>Номер</th>
+                        <th>Ф.И.О Автора</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">
+
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <?php	
+						$sql = "SELECT * FROM `Author`  ";
+						$result = mysqli_query($dbcon, $sql);	
+						while ($row = mysqli_fetch_assoc($result)) {
+							$auNum  = htmlentities($row['authorId']);
+							$auName  = htmlentities($row['name']);
+								echo '<tr>';
+								echo '<td>'.$auNum.'</td>';
+								echo '<td>'.$auName.'</td>';
+								echo '';
+								echo '</tr>';
+						}
+				?>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+        </div>
+</body>
+
+</html>
