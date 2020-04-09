@@ -38,7 +38,7 @@ class gitFragment : Fragment() {
             }
         }
 //        webview.settings.javaScriptEnabled = true
-        webView1.loadUrl("https://github.com/IvanMalinin-0876/DEMO-Android-KOTLIN-PHP-MYSQL-HTML")
+        webView1.loadUrl("https://github.com/IvanMalinin-0876/D8765/")
 
         webView1.getSettings().setJavaScriptEnabled(true);
         webView1.getSettings().setBuiltInZoomControls(true);
@@ -46,8 +46,23 @@ class gitFragment : Fragment() {
 
 
 
-        root.button2564.setOnClickListener {
+        root.button2564!!.setOnClickListener {
             openlink();
+        }
+
+       root.button6533!!.setOnClickListener {
+            // TODO Auto-generated method stub
+
+            if (webView1.canGoBack()) {
+                webView1.goBack()
+            }
+        }
+        root.button2853!!.setOnClickListener {
+            // TODO Auto-generated method stub
+
+            if (webView1.canGoForward()) {
+                webView1.goForward()
+            }
         }
 
 
@@ -59,7 +74,7 @@ class gitFragment : Fragment() {
 
     fun openlink(){
 
-        openNewTabWindow("https://github.com/IvanMalinin-0876/DEMO-Android-KOTLIN-PHP-MYSQL-HTML", view!!.context)
+        openNewTabWindow("https://github.com/IvanMalinin-0876/D8765/", view!!.context)
     }
 
 
