@@ -1,10 +1,9 @@
-package com.example.d8765.ui.home
+package com.d8765.d8765.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -15,10 +14,8 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
-import com.example.d8765.R
-import kotlinx.android.synthetic.main.fragment_dashboard.*
+import com.d8765.d8765.R
 import kotlinx.android.synthetic.main.fragment_home.*
-import org.json.JSONArray
 import org.json.JSONObject
 
 class HomeFragment : Fragment() {

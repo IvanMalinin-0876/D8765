@@ -1,15 +1,9 @@
-package com.example.d8765.ui.dashboard
+package com.d8765.d8765.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.android.volley.Request
-import com.android.volley.Response
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
-import kotlinx.android.synthetic.main.fragment_dashboard.*
 import org.json.JSONObject
-import kotlin.coroutines.coroutineContext
 
 class DashboardViewModel : ViewModel() {
 

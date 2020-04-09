@@ -1,4 +1,4 @@
-package com.example.d8765
+package com.d8765.d8765
 
 import org.junit.Test
 

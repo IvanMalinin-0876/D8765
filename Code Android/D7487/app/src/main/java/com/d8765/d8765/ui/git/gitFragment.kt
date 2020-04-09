@@ -1,4 +1,4 @@
-package com.example.d8765.ui.git
+package com.d8765.d8765.ui.git
 
 import android.content.Context
 import android.content.Intent
@@ -11,8 +11,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
-import com.example.d8765.R
-import kotlinx.android.synthetic.main.fragment_git.*
+import com.d8765.d8765.R
 import kotlinx.android.synthetic.main.fragment_git.view.*
 
 class gitFragment : Fragment() {

@@ -1,4 +1,4 @@
-package com.example.d8765.ui.home
+package com.d8765.d8765.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

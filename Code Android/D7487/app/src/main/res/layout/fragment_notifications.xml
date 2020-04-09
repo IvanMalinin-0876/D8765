@@ -22,7 +22,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:background="@drawable/shape0564"
+            android:background="@drawable/shape7215"
             android:visibility="visible">
 
             <ScrollView
@@ -57,98 +57,98 @@
 
     </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/allert5436"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="763dp">
+<!--    <FrameLayout-->
+<!--        android:id="@+id/allert54366"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginLeft="32dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:layout_marginRight="32dp"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:layout_editor_absoluteY="763dp">-->
 
-        <LinearLayout
+<!--        <LinearLayout-->
 
-            android:id="@+id/addcard4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="230dp"
-            android:background="@drawable/shape7215"
-            android:orientation="vertical"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
+<!--            android:id="@+id/addcard4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="230dp"-->
+<!--            android:background="@drawable/shape7215"-->
+<!--            android:orientation="vertical"-->
+<!--            tools:layout_editor_absoluteX="8dp"-->
+<!--            tools:layout_editor_absoluteY="8dp">-->
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="4dp"
-                android:orientation="horizontal">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:orientation="horizontal">-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:orientation="vertical">-->
 
-                    <TextView
-                        android:id="@+id/text8643"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="4dp"
-                        android:layout_marginTop="6dp"
-                        android:layout_weight="1"
-                        android:fontFamily="sans-serif"
-                        android:gravity="center"
-                        android:text="@string/w_error"
-                        android:textColor="#3F51B5"
-                        android:textSize="24sp" />
+<!--                    <TextView-->
+<!--                        android:id="@+id/text8643"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_marginLeft="4dp"-->
+<!--                        android:layout_marginTop="6dp"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:fontFamily="sans-serif"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="@string/w_error"-->
+<!--                        android:textColor="#3F51B5"-->
+<!--                        android:textSize="24sp" />-->
 
-                    <ProgressBar
-                        android:id="@+id/progressBar"
-                        style="?android:attr/progressBarStyle"
-                        android:layout_width="match_parent"
-                        android:layout_height="120dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="6dp"
-                        android:layout_marginBottom="6dp"
-                        android:layout_weight="1" />
-                </LinearLayout>
+<!--                    <ProgressBar-->
+<!--                        android:id="@+id/progressBar"-->
+<!--                        style="?android:attr/progressBarStyle"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="120dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginTop="6dp"-->
+<!--                        android:layout_marginBottom="6dp"-->
+<!--                        android:layout_weight="1" />-->
+<!--                </LinearLayout>-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
-            <!--            <LinearLayout-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="match_parent"-->
-            <!--                android:layout_marginTop="4dp"-->
-            <!--                android:orientation="horizontal">-->
+<!--            &lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_height="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_marginTop="4dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:orientation="horizontal">&ndash;&gt;-->
 
 
-            <!--                <TextView-->
-            <!--                    android:id="@+id/text6546"-->
-            <!--                    android:layout_width="match_parent"-->
-            <!--                    android:layout_height="match_parent"-->
-            <!--                    android:layout_marginLeft="14dp"-->
-            <!--                    android:layout_marginTop="20dp"-->
-            <!--                    android:layout_marginBottom="20dp"-->
-            <!--                    android:layout_weight="1"-->
-            <!--                    android:text="@string/w_error_404"-->
-            <!--                    android:textColor="#FBF9F9"-->
-            <!--                    android:textSize="18sp" />-->
+<!--            &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:id="@+id/text6546"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginLeft="14dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_marginBottom="20dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:layout_weight="1"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:text="@string/w_error_404"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textColor="#FBF9F9"&ndash;&gt;-->
+<!--            &lt;!&ndash;                    android:textSize="18sp" />&ndash;&gt;-->
 
-            <!--            </LinearLayout>-->
+<!--            &lt;!&ndash;            </LinearLayout>&ndash;&gt;-->
 
-            <!--            <Button-->
-            <!--                android:id="@+id/button"-->
-            <!--                android:layout_width="match_parent"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:background="@drawable/shape5985"-->
-            <!--                android:text="закрыть" />-->
+<!--            &lt;!&ndash;            <Button&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:id="@+id/button"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:background="@drawable/shape5985"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:text="закрыть" />&ndash;&gt;-->
 
-        </LinearLayout>
-    </FrameLayout>
+<!--        </LinearLayout>-->
+<!--    </FrameLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 <!--    android:textAlignment="center"-->

@@ -1,4 +1,4 @@
-package com.example.d8765.ui.notifications
+package com.d8765.d8765.ui.notifications
 
 import android.content.Context
 import android.content.Intent
@@ -7,19 +7,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.d8765.R
-import kotlinx.android.synthetic.main.fragment_git.view.*
-import kotlinx.android.synthetic.main.fragment_notifications.*
-import kotlinx.android.synthetic.main.fragment_notifications.view.*
-import org.json.JSONObject
+import com.d8765.d8765.R
 
 class NotificationsFragment : Fragment() {
 
