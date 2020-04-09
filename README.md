@@ -4,7 +4,7 @@
 
 В задании представлена библиотека книг, где можно добавить книгу и автора в базу данных. Посмотреть карточки книг в приложении.
 
-Файл apk http://213.226.112.96/dist/webid/index.php?share/folder&user=104&sid=6MJfcu7p
+Файл apk http://213.226.112.96/dist/webid/index.php?share/folder&user=104&sid=YSbCInpV
 
 База данных представленна в форме mysql.
 
