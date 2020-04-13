@@ -11,5 +11,5 @@ http://213.226.112.96/prj/D8765/order.html
 Приложение андроид (версия 9-10) доступно по ссылке (в папке обменника есть скриншоты)
 http://213.226.112.96/dist/webid/index.php?share/folder&user=104&sid=YSbCInpV
  
-Ссылка в гугплей
+Ссылка в маркете
 https://play.google.com/store/apps/details?id=com.d8765.d8765
